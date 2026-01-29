@@ -211,3 +211,35 @@ span{
         border: none;
         color: #FFFFFF;
     }
+footer{
+    background: #FFFFFF;
+}
+.footer-wrapper{
+    justify-content: space-between;
+    gap: 80px;
+    padding: 50px 0 50px 0;
+}
+.footer-wrapper p{
+    font-family: var(--font-inter);
+    font-size: 1.2rem;
+     color: #6B7280;
+    font-weight: 400;
+    max-width: 359px;
+}
+.footer-wrapper ul li{
+    list-style: none;
+    color: #6B7280;
+    margin-bottom: 32px;
+}
+.footer-wrapper ol li{
+    list-style: none;
+    color: #6B7280;
+    margin-bottom: 32px;
+}
+.footer-wrapper .socal-icons{
+    gap: 24px;
+}
+.footer-wrapper .socal-icons img{
+    width: 36px;
+    height: 36px;
+}
