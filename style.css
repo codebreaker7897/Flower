@@ -87,6 +87,13 @@ span{
 .card{
     width: 270px;
     border: 1px solid red;
+
+}
+.card:hover{
+    width: 270px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+
 }
 .details{
     text-align: center;
