@@ -107,8 +107,6 @@ span{
     width: 270px;
     -webkit-box-shadow: 5px 5px 15px 5px #000000; 
  box-shadow: 5px 5px 15px 5px #000000;
-
-
 }
 .details{
     text-align: center;
@@ -280,12 +278,8 @@ footer{
     gap: 20px;
 
 }
-.card img{
-    width: 100%;
-}
-.card img::before{
-    content: '';
- 
+.bannert-wrapper img{
+    width:100%;
 }
 .bannert-wrapper h1 {
       font-size: 3.2rem;
@@ -311,9 +305,12 @@ h1 {
 .all-cards {
     grid-template-columns: repeat(2, 1fr );
     margin-top: 28px;
+    justify-items: center;
 }
-    .image img{
+.all-cards img{
         width: 100%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
     }
     .Flower-wrapper {
     margin-top: 41px;
@@ -324,8 +321,76 @@ h1 {
 .Flower-wrapper .text {
     margin-top: -14px;
 }
+.Flower-wrapper img{
+    width: 100%;
+}
 .Flower-wrapper .text h2 {
     font-size: 24px;
+}
+.Flower-wrapper .text li {
+    font-size: 14px;
+    width: 361px;
+    margin: 20px 0 20px 0;
+}
+.Latest-wrapper p {
+    font-size: 14px;
+    width: 336px;
+    margin-top: 14px;
+}
+.grid {
+    grid-template-columns: repeat( 1, 1fr);
+    gap: 20px;
+    margin: 51px 0 40px 0;
+ 
+}
+
+.grid .box1 .box2.bo3 img {
+   width:361px !important;
+}
+.card {
+    width: 191px;
+    border-radius: 10px;
+}
+.card:hover{
+    width: 191px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+ box-shadow: 5px 5px 15px 5px #000000;
+}
+.card img {
+    width: 100%;
+}
+.card h3 {
+    font-size: 16px;
+}
+.card h4 {
+    font-size: 16px;
+    margin: 10px 0 30px 0;
+}
+.card button {
+    padding: 19px 41px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.join-wrapper .button-one {
+    padding: 15.5px 140px 15.5px 20px;
+}
+.join-wrapper button {
+    padding: 15.5px  12px;
+}
+.join-wrapper {
+    padding: 115px 0 64pxpx 0 !important;
+    text-align: center;
+}
+.join-wrapper h1 {
+    font-size: 20px;
+}
+.footer-wrapper {
+    gap: 20px;
+    padding: 35px 0 35px 0;
+    flex-direction: column;
+}
+.footer-wrapper p {
+    font-size: 16px;
 }
 }
 /* --------------------mobile device responsive-------------------- */
